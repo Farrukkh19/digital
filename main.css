@@ -89,6 +89,11 @@ header img {
         justify-content: space-between;
         padding: 0 90px;
     }
+    header {
+        background-color: #fffefe;
+        border-bottom: 1.5px solid #eeeeee;
+        width: 100%;
+    }
 }
 /* ================ MAIN ============= */
 main {
