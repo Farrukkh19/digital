@@ -34,6 +34,7 @@ button:hover {
     margin-left: auto;
     padding: 0 230px;
 }
+/*  ==================== HEADER ======================== */
 header {
     background-color: #fffefe;
     border-bottom: 1.5px solid #eeeeee;
@@ -91,7 +92,20 @@ header img {
     }
     header {
         background-color: #fffefe;
-        border-bottom: 1.5px solid #eeeeee;
+        border-bottom: 5px solid #080808;
+        width: 180%;
+        display: flex;
+    }
+    .header-btn {
+        display: none;
+    }
+    .wrapper ul {
+        margin-top: 50px;
+        display: flex;
+        list-style: none;
+        margin-left: 5rem;
+    }
+    .wrapper {
         width: 100%;
     }
 }
